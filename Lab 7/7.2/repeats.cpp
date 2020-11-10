@@ -43,6 +43,8 @@ int main() {
 
     cout << noRepeat << endl;
     
+    delete [] noRepeat;
+    
     return 0;
 }
 
